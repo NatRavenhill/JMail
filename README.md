@@ -5,6 +5,7 @@ The repository contains code from the assignments in the SSC module at Universit
 http://www.cs.bham.ac.uk/~szh/teaching/2013backup/ssc/index.htm
 
 ## Java Email Client  
+*(in emailClient folder)*__
 
 This was the first assignment.  
 
@@ -15,13 +16,20 @@ It includes
 
 In order to run the code, you must also include the [JavaMail](https://java.net/projects/javamail/pages/Home) API. Also, in Init, the user details must be changed to those of the user using the email client.
 
-![](email.png)
+![](https://github.com/NatRavenhill/SoftwareSystemsComponents/blob/master/email.PNG)
 
 ## Mulithreaded Email Client  
+*(in threadAssignment folder)*__
 
-This was the second assignment  
+This was the second assignment. It is a multithreaded version of the first assignment. There is  a thread for composing a new message and sending it and another one that checks if messages were received and informs the user if this is the case:  
 
-It includes  
+![](https://github.com/NatRavenhill/SoftwareSystemsComponents/blob/master/email.PNG)
 
-1. 
+There is also a thread for adding/updating contacts:  
+
+![](https://github.com/NatRavenhill/SoftwareSystemsComponents/blob/master/contacts.PNG)
+
+
+## Webmail__
+*(in folder)*
 
